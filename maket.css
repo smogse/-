@@ -1,0 +1,691 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
+
+.top {
+    position: relative;
+    width: 1510px;
+    margin: auto;
+}
+
+.top_menu {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 1510px;
+    background: #000000;
+    height: 75px;
+    margin: auto;
+}
+
+.top_logo {
+    margin: 22px 116px;
+}
+
+.top_main {
+    display: flex;
+    justify-content: space-around;
+    float: right;
+    width: 570px;
+    margin-right: 170px;
+}
+
+.top_menu-main-bar {
+    font-family: 'Open Sans', sans-serif;
+    width: 114px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #000000;
+    border: none;
+    align-items: center;
+    text-align: center;
+}
+
+.banner {
+    width: 1510px;
+    height: 1026px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./image/image1.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.banner_tittle-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner_tittle {
+    margin-left: 170px;
+}
+
+.banner_logo {
+    width: 270px;
+    height: 100px;
+    margin-top: 283px;
+}
+
+.banner_subtittle {
+    width: 670px;
+    height: 168px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-bottom: 55px;
+}
+
+.banner_line {
+    width: 170px;
+    border: 1px solid #FFFFFF;
+    margin-bottom: 42px;
+}
+
+.banner_text {
+    width: 270px;
+    height: 42px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 42px;
+}
+
+.banner_button {
+    width: 270px;
+    height: 58px;
+    background: transparent;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.banner_form-wrapper {
+    width: 470px;
+    height: 390px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 283px 170px 293px 30px;
+}
+
+.form_tittle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.colortext {
+    color: #EC7979;
+}
+
+.email-wrapper {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    height: 300px;
+}
+
+.label-content {
+    width: 370px;
+    height: 38px;
+    border-bottom: 1px solid #BDBDBD;
+    border: none;
+    margin: auto;
+    margin-bottom: 52px;
+}
+#Name,#Email,#Password {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.form_button {
+    width: 470px;
+    height: 60px;
+    background: #EC7979;
+    color: #FFFFFF;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    width: 1510px;
+    height: 140px;
+    background: #F8EFEF;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.social_tittle-wripper {
+    flex-direction: column;
+    width: 470px;
+    margin: 2px 30px 18px 170px;
+}
+
+.social_tittle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.social_subtittle {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.social_logo {
+    display: flex;
+    justify-content: space-around;
+    width: 657px;
+    margin: auto;
+    color: #CCCCCC;    
+}
+
+.tabs {
+    font-family: 'Open Sans', sans-serif;
+    width: 1170px;
+    height: 540px;
+    margin: auto;
+}
+
+.tabs_blocktab {
+    width: 1170px;
+    display: flex;
+}
+
+.tabs_threeblock {
+    font-weight: 400;
+    font-size: 14px;
+    width: 570px;
+    height: 40px;
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.tabs_onetab {
+    width: 203px;
+    border: 1px solid #C6CBCD;
+    border-bottom: none;
+}
+
+.buttontab {
+    background: white;
+    padding: 11px 82.5px;
+    border: none;
+    margin-bottom: -2px;
+}  
+
+.buttontabs {
+    background: white;
+    padding: 11px 73px;
+    border: none;  
+}
+    
+.tabs_twotabs {
+    width: 184px;    
+}
+
+.tabs_fourtab {
+    width: 600px;
+    height: 40px;  
+}
+
+.tabs_block {
+    display: flex;
+    border: 1px solid #c6cbcd;
+}
+
+.tabs_block-title {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 100px;
+}
+
+.tabs_title {
+    font-size: 30px;
+    width: 570px;
+}
+
+.tabs_subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.tabs_button-wriper {
+    font-weight: 600;
+    font-size: 18px;
+    width: 270px;
+    padding: 20px;
+    border: none;
+    text-align: center;
+    background: #EC7979;
+    color: #ffffff;
+}
+
+.tabs_icon {
+    width: 470px;
+    height: 500px;
+    align-items: stretch;    
+}
+
+.awesome {
+    font-family: 'Raleway', sans-serif;
+    width: 1170px;
+    margin: auto;
+}
+
+.awesome_title {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.awesome_title-wrapper {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.awesome_line {
+    width: 170px;
+    border: 1px solid #ec7979;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.awesome_subtitle {
+    color: #86878B;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+.awesome_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.awesome_block {
+    width: 370px;
+    text-align: center;
+}
+
+.awesome_icon-wrapper {
+    width: 92px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #EC7979;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 78px;
+}
+
+.awesome_block-title {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 47px;
+}
+
+.price {    
+    font-family: 'Raleway', sans-serif;
+    width: 1171px;
+    height: 900px;
+    background: #F5F5F5;
+    margin: auto;
+}
+
+.price_title {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.price_title-wrapper {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price_line {
+    width: 170px;
+    border: 1px solid #EC7979;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.price_subtitle {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: #86878B;
+    margin-bottom: 59px;
+}
+
+.price_container {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+}
+
+.price_block {   
+    width: 370px;
+    text-align: center;
+    align-items: center;
+}
+   
+.price_block:hover{
+    transform: scale(1.1);
+    box-shadow: (0px 4px 10px)rgba(51, 51, 51, 0.2);
+}
+
+.price_blocktarif {
+    font-family: 'Open Sans', sans-serif;
+    height: 60px;
+    font-weight: 700;
+    font-size: 24px;
+    background: #333333;
+    border: 2px solid #F5F5F5;
+    color: #F5F5F5;
+    margin: 0;
+}
+
+.price_blockbid {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    height: 100px;
+    background: #333333;
+    border: 2px solid #F5F5F5;
+    margin: 0;
+    color: #F5F5F5;
+}
+
+.price_block-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    background: #333333;
+    border: 2px solid #F5F5F5;
+    margin: 0;
+}
+
+.price_blockvolume {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    height: 50px;
+    text-align: center;
+    color: #86878B;
+    background: #FFFFFF;
+    border: 2px solid #F5F5F5;
+    margin: 0;
+}
+
+.reviews {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    width: 1171px;
+    height: 630px;
+    margin: auto;
+    margin-bottom: 64px;
+}
+
+.reviews_title-wrapper {
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews_title {
+    font-size: 36px;
+}
+
+.reviews_line {
+    width: 170px;
+    border: 1px solid #EC7979;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.reviews_subtitle {
+    font-size: 18px;
+    color: #86878B;
+    text-align: center;
+    margin-bottom: 83px;
+}
+
+.reviews_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews_block-title {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 370px;
+    height: 180px;
+    font-size: 18px;
+    color: #86878B;
+    background-color: #E2E2E2;
+    border-radius: 10px;
+    margin-bottom: -12px;
+}
+
+.reviews_blockpolygon {
+    display: flex;
+    justify-content: space-around;    
+    width: 1170px;
+    height: 20px;    
+}
+
+.reviews_blockpolygon-rhombus {
+    background-color: #E2E2E2;
+    border: 1px solid #E2E2E2;
+    width: 30px;
+    height: 20px;
+    transform: rotate(140deg);
+    margin-left: -80px;
+    margin-bottom: 66px;
+    
+}
+
+.reviews_containermanager {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 66px;
+}
+
+.reviews_manager-wripper {
+    display: flex;
+    justify-content: space-around;
+    width: 370px;
+    margin-bottom: 59px;
+}
+
+.reviews_manager-icone {
+    width: 70px;
+    height: 70px;
+}
+
+.reviews_manager-tittle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    width: 269px;
+}
+
+.stylish {
+    font-family: "Raleway", sans-serif;
+    width: 1510px;
+    font-weight: 400;
+    height: 358px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./image/image.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.stylish_tittle-wrapper {
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin: 52px 16px 32px;
+}
+
+.stylish_line {
+    width: 142px;
+    border-bottom: 1px solid #FFFFFF;
+    margin: auto;
+    margin-bottom: 32px;
+}
+
+.stylish_subtittle {
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.stylish_button {
+    display: flex;
+    justify-content: center;
+}
+
+.stylish_button-wripper {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    width: 318px;
+    height: 58px;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    background: transparent;
+}
+
+.contact {
+    width: 1170px;
+    height: 622px;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin-bottom: 150px;
+}
+
+.contact_title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    font-size: 36px;    
+}
+
+.contact_title {
+    margin: 0;
+}
+
+.contact_line {
+    width: 170px;
+    border: 1px solid #EC7979;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.contact_subtitle {
+    font-size: 18px;
+    color: #86878B;
+    text-align: center;
+    margin-bottom: 89px;
+}
+
+.contact_form {    
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #BDBDBD;
+}
+
+.form_content {
+    width: 571px;
+    height: 38px;
+    margin-bottom: 85px;    
+}
+
+.contact_text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #BDBDBD;
+    margin-bottom: 192px;  
+}
+
+.text_line {
+    width: 569px;
+    border: 1px solid #BDBDBD;
+}
+
+.contact_button-wripper {
+    display: flex;
+    justify-content: center;
+}
+
+.contact_button {    
+    width: 370px;
+    height: 58px;
+    background: #EC7979;
+    color: #FFFFFF;    
+    text-align: center;
+    border: none;  
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    width: 1510px;
+    height: 164px;
+    background: #000000;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo_tittle {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 461px;
+    color: #CCCCCC;
+    margin-bottom: 42px;
+}
+
+.logo_subtittle {
+    font-size: 14px;
+    text-align: center;    
+    color: rgba(255, 255, 255, 0.5);
+}
