@@ -411,6 +411,8 @@
     background: #333333;
     border: 2px solid #F5F5F5;
     color: #F5F5F5;
+    box-sizing: border-box;
+    padding: 10px;
 }
 
 .price_blockbid {
@@ -421,6 +423,8 @@
     background: #333333;
     border: 2px solid #F5F5F5;
     color: #F5F5F5;
+    box-sizing: border-box;
+    padding: 20px;
 }
 
 .price_block-title {
@@ -440,6 +444,8 @@
     color: #86878B;
     background: #FFFFFF;
     border: 2px solid #F5F5F5;
+    box-sizing: border-box;
+    padding: 10px;
 }
 
 .reviews {
@@ -490,6 +496,8 @@
     background: #E2E2E2;
     border-radius: 10px;    
     text-align: center;
+    box-sizing: border-box;
+    padding-top: 38px;
 }
 
 .reviews_blockpolygon-rhombus {
@@ -499,7 +507,7 @@
     height: 20px;
     transform: rotate(140deg);
     margin: auto;
-    margin: 60px 270px 46px 70px;
+    margin: 28px 270px 46px 70px;
 }
 
 .reviews_manager-wripper {
