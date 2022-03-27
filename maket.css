@@ -17,27 +17,33 @@
 }
 
 .top_logo {
+    width: 300px;
     margin: 22px 116px;
 }
 
 .top_main {
-    display: flex;
-    justify-content: space-around;
-    float: right;
-    width: 570px;
-    margin-right: 170px;
+    display: inline;
+    list-style: none;
+    margin: auto;        
+    text-align: center;
+    align-items: center;
+    padding: 0;
 }
 
-.top_menu-main-bar {
+.top_main-menu {
+    display: inline-block;
     font-family: 'Open Sans', sans-serif;
     width: 114px;
     font-weight: 600;
     font-size: 14px;
     color: #FFFFFF;
     background: #000000;
-    border: none;
-    align-items: center;
-    text-align: center;
+    border: none;    
+}
+
+.top_main-bar {
+    padding: 10px 10px;
+    line-height: 19px;
 }
 
 .banner {
@@ -343,7 +349,7 @@
 
 .price {    
     font-family: 'Raleway', sans-serif;
-    width: 1171px;
+    width: 1508px;
     height: 900px;
     background: #F5F5F5;
     margin: auto;
@@ -381,12 +387,15 @@
     display: flex;
     justify-content: space-between;
     width: 1170px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
 }
 
 .price_block {   
-    width: 370px;
-    text-align: center;
-    align-items: center;
+    width: 370px;    
+    margin: auto;
+    list-style: none;
 }
    
 .price_block:hover{
@@ -402,7 +411,8 @@
     background: #333333;
     border: 2px solid #F5F5F5;
     color: #F5F5F5;
-    margin: 0;
+    box-sizing: border-box;
+    padding: 10px;
 }
 
 .price_blockbid {
@@ -412,8 +422,9 @@
     height: 100px;
     background: #333333;
     border: 2px solid #F5F5F5;
-    margin: 0;
     color: #F5F5F5;
+    box-sizing: border-box;
+    padding: 20px;
 }
 
 .price_block-title {
@@ -423,7 +434,6 @@
     color: rgba(255, 255, 255, 0.5);
     background: #333333;
     border: 2px solid #F5F5F5;
-    margin: 0;
 }
 
 .price_blockvolume {
@@ -431,11 +441,11 @@
     font-weight: 400;
     font-size: 18px;
     height: 50px;
-    text-align: center;
     color: #86878B;
     background: #FFFFFF;
     border: 2px solid #F5F5F5;
-    margin: 0;
+    box-sizing: border-box;
+    padding: 10px;
 }
 
 .reviews {
@@ -473,28 +483,21 @@
 }
 
 .reviews_block {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .reviews_block-title {
-    text-align: center;
-    align-items: center;
-    justify-content: center;
     width: 370px;
     height: 180px;
-    font-size: 18px;
-    color: #86878B;
-    background-color: #E2E2E2;
-    border-radius: 10px;
-    margin-bottom: -12px;
-}
-
-.reviews_blockpolygon {
-    display: flex;
-    justify-content: space-around;    
-    width: 1170px;
-    height: 20px;    
+    background: #E2E2E2;
+    border-radius: 10px;    
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 38px;
 }
 
 .reviews_blockpolygon-rhombus {
@@ -503,33 +506,39 @@
     width: 30px;
     height: 20px;
     transform: rotate(140deg);
-    margin-left: -80px;
-    margin-bottom: 66px;
-    
-}
-
-.reviews_containermanager {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 66px;
+    margin: auto;
+    margin: 28px 270px 46px 70px;
 }
 
 .reviews_manager-wripper {
-    display: flex;
-    justify-content: space-around;
-    width: 370px;
-    margin-bottom: 59px;
+    display: flex;    
 }
 
 .reviews_manager-icone {
     width: 70px;
     height: 70px;
+    margin-right: 30px;  
 }
 
 .reviews_manager-tittle {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    width: 269px;
+    height: 90px;
+}
+
+.reviews_name {
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
-    width: 269px;
+    font-weight: 700;
+    margin: 0;
+    text-align: left;
+}
+
+.reviews_position {
+    margin: 0;
+    text-align: left;
 }
 
 .stylish {
@@ -542,7 +551,6 @@
     background-position: center;
     background-repeat: no-repeat;
     margin: auto;
-    margin-bottom: 50px;
 }
 
 .stylish_tittle-wrapper {
@@ -636,11 +644,12 @@
     margin-bottom: 85px;    
 }
 
-.contact_text {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    color: #BDBDBD;
-    margin-bottom: 192px;  
+#Message {
+    width: 569px;
+    height: 260px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    resize: none;
 }
 
 .text_line {
@@ -681,7 +690,6 @@
     margin: auto;
     width: 461px;
     color: #CCCCCC;
-    margin-bottom: 42px;
 }
 
 .logo_subtittle {
